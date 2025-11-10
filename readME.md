@@ -73,12 +73,12 @@ C:\entrega-urbana-logica\
 4. Carregue o programa principal:
 
    ```prolog
-   ?- ['src/main.pl'].
+    ['src/main.pl'].
    ```
 5. Inicie o sistema:
 
    ```prolog
-   ?- start.
+    start.
    ```
 6. O menu principal será exibido:
 
