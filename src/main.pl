@@ -1,6 +1,6 @@
 % main.pl
 % Arquivo principal do sistema especialista Entrega Urbana
-% Estrutura de pastas: C:\urbano-logico\src
+% Estrutura de pastas: C:\entrega-urbana-logica\src
 % Revisado para leitura correta de opcoes sem precisar de ponto final
 % Autor: Pedro Muci
 
@@ -17,9 +17,8 @@ start :-
     menu.
 
 banner :-
-    format("~n=== Sistema Especialista - Entrega Urbana ===~n"),
+    format("~n=== Sistema - Entrega Urbana ===~n"),
     format("Objetivo: calcular o custo estimado de entrega considerando zona, pedagios, peso, volume e janela de entrega.~n"),
-    format("Desenvolvido por: Pedro Muci - Projeto academico~n~n").
 
 % -------------------------------------------------------------
 % menu/0 - exibe o menu principal e processa a opcao escolhida
