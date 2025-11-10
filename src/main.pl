@@ -18,7 +18,7 @@ start :-
 
 banner :-
     format("~n=== Sistema - Entrega Urbana ===~n"),
-    format("Objetivo: calcular o custo estimado de entrega considerando zona, pedagios, peso, volume e janela de entrega.~n"),
+    format("Objetivo: calcular o custo estimado de entrega considerando zona, pedagios, peso, volume e janela de entrega.~n~n").
 
 % -------------------------------------------------------------
 % menu/0 - exibe o menu principal e processa a opcao escolhida
@@ -41,7 +41,8 @@ process_option(1) :- !,
     nl, menu.
 
 process_option(2) :- !,
-    format("Saindo do sistema...~n").
+    format("Saindo do sistema...~n"),
+    halt.   % <-- Encerra completamente o programa
 
 process_option(_) :-
     format("Opcao invalida. Tente novamente.~n~n"),
